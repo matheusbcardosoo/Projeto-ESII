@@ -1,6 +1,8 @@
-## Classe main
+# Projeto Gerenciamento de quadras
 ---
-` public class SoftwareEngineering {
+### Classe main
+```
+public class SoftwareEngineering {
 
     //Programa para registro de quadra, projeto Engenharia de Software II
     public static void main(String[] args) {
@@ -13,11 +15,13 @@
         q3.defineInfo();
         System.out.println(q3.mostraInfos());
     }
-} `
-
-## Classe Quadra
+} 
+```
 ---
-` import java.util.Scanner;
+### Classe Quadra
+
+```
+import java.util.Scanner;
 
 public class Quadra {
     int numQuadra;
@@ -65,5 +69,6 @@ public class Quadra {
         if(this.bancoJgd == true) { return(", Tem banco para jogadores"); }
         else { return(", Nao tem banco para jogadores"); }
     }
-} `
+} 
+```
 
