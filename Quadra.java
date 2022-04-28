@@ -1,4 +1,3 @@
-package softwareengineering;
 import java.util.Scanner;
 
 public class Quadra {
